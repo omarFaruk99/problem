@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* google front */
+.work-sans-primary {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ............share -styles........... */
+.display-flex{
+    display: flex;
+}
+
+/* color-dark-01 */
+.dark1{
+    color: #131313;
+}
+
+.dark2{
+    color: #424242;
+}
+.dark3{
+    color: #727272;
+}
+.button-primary{
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color: #FFFFFF ;
+}
+
+/* remove blank white space around body */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* set header section width & height and bg-color */
+.header-section{
+    width: 100%;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* remove dot from un order list */
+.nav-link{
+    list-style: none; 
+    padding-top: 63px;
+}
+
+/* remove underline form anchor text */
+.nav-item{
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 1.125rem;
+    font-weight: 500;
+
+
+}
+
+/* space between nav bar */
+.nav-bar{
+    justify-content: space-between;
+    /* border: 1px solid salmon; */
+
+}
+.nav-bar > h3{
+    font-size: 2.81rem;
+    font-weight: 700;
+    margin-top: 50px;
+}
+/* banner content */
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    margin-top: 102px;
+    text-align: center;  
+    
+
+}
+
+/* banner paragraph */
+.banner-para{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* banner title */
+.banner-tittle{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+/* banner-button */
+.banner-button{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 32px;
+    padding: 21px 24px 21px 24px;
+    border: none;
+ 
+}
+/* banner - image */
+.banner-img{
+    width: 100%;
+    /* border: 1px solid green; */
+    margin-top: 50px;
+}
+
+/* navbar and banner align center */
+.nav-bar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* .........Quick List feature section.......... */
+.quick-list{
+    /* border: 1px solid brown; */
+    max-width: 1318px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 85px;
+}
+
+.quick-list-feature{
+   align-content: center;
+   /* border: 1px solid blueviolet; */
+   margin-left: 73px;
+}
+.quick-list-imgs{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.img-name{
+    /* width: 100%; */
+}
+#quick-list{
+    font-weight: 500;
+    font-size: 2.81rem;
+    color: #727272;
+}
+.of-our{
+    font-size: 2.81rem;
+    font-weight: 700;
+    color: #131313;
+}
+.feature{
+    font-size: 2.81rem;
+    font-weight: 700;
+    color: #FF900E ;
+}
+.feature-btn{
+    padding: 21px 24px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 32px;
+    border: none;
+}
+.feature-title{
+    margin-right: 66px;
+    margin-bottom: 24px;
+}
+
+/*...............Section: some Facts................. */
+.some-facts{
+    max-width: 1390px;
+    margin: 0 auto;
+    /* border: 1px solid brown; */
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+.cards{
+    max-width: 1340px;
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin-left: 50px;
+    
+
+}
+.card{
+    display: flex;
+    border: 1px solid #FF900E ;
+    width: 241px;
+    height: 241px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+.some-facts-title{
+    font-weight: 700;
+    font-size: 2.81rem;
+}
+.some-facts-para{
+    /* border: 1px solid tomato; */
+    max-width: 542px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+.card-para{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #727272 ;
+}
+.card-num{
+    font-weight: 600;
+    font-size: 2.81rem;
+    color:#424242;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+
+/* .........section: Our Sponspors........... */
+.sponspore-container{
+    max-width: 1440px;
+    /* height: 100px; */
+    margin: 0 auto;
+    /* border: 1px solid slateblue; */
+    margin-bottom: 100px;
+}
+.spons-context{
+    max-width: 542px;
+    margin: 0 auto;
+    /* border: 1px solid skyblue; */
+    text-align: center;
+}
+.spons-title{
+    font-weight: 700;
+    font-size: 2.81rem;
+    margin-bottom: 24px;
+}
+.spons-para{
+    margin-bottom: 50px;
+}
+.spons-content{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: space-between;
+    /* border: 1px solid maroon; */
+}
+.comp-img{
+    filter: grayscale(100%);
+}
+.footer-sction{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: #FFF4E7;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-context{
+    color: #424242;
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .........Responsive Media Query............. */
+@media screen and (max-width: 576px){
+    .nav-bar, 
+    .nav-link, 
+    .quick-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .nav-link{
+        padding-top: 30px;
+    }
+    .banner-content{
+        margin-top: 60px;
+    }
+
+    .quick-list-imgs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* some facts */
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        justify-content: center;
+    }
+    .some-facts-para{
+        margin-bottom: 50px;
+    }
+
+/* section: Our Sponspors */
+.spons-content{
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+}
+.footer-context{
+    font-size: 0.7rem;
+}
+
+}
